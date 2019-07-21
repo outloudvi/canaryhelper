@@ -27,6 +27,9 @@ It will generate these files for you:
 * canary-YYYYMM.txt
 * canary-YYYYMM.txt.asc
 
+## Known Issues
+* Some Telegraph (telegraph.co.uk) entries may contain non-breaking space (\xa0). It won't affect the verification of this file itself, but could be problematic when republishing the file in text without proper transformation.
+
 ## License
 
 MIT License
