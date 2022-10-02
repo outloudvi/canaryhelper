@@ -58,11 +58,11 @@ Special Announcements
 Proof of Freshness
 ~~~~~~~~~~~~~~~~~~~~
 
-$ rsstail -1 -n5 -N -u https://www.telegraph.co.uk/news/rss.xml
-`rsstail -1 -n5 -N -u https://www.telegraph.co.uk/news/rss.xml`
+$ rsstail -n5 -u https://www.telegraph.co.uk/news/rss.xml -l -N -1
+`rsstail -n5 -u https://www.telegraph.co.uk/news/rss.xml -l -N -1`
 
-$ rsstail -1 -n5 -N -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml
-`rsstail -1 -n5 -N -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml`
+$ rsstail -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml -l -N -1
+`rsstail -n5 -u https://rss.nytimes.com/services/xml/rss/nyt/World.xml -l -N -1`
 
 $ date -R -u
 `date -R -u`
